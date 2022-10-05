@@ -23,3 +23,13 @@ Metacritic_User | The Metacritic user score for the film
 IMDB | The IMDb user score for the film
 Metacritic_user_vote_count | The number of user votes the film had on Metacritic
 IMDB_user_vote_count | The number of user votes the film had on IMDb
+
+#### fandango_scape.csv
+`fandango_scrape.csv` contains every film 538 pulled from Fandango.
+
+Column | Definiton
+--- | ---------
+FILM | The movie
+STARS | Number of stars presented on Fandango.com
+RATING |  The Fandango ratingValue for the film, as pulled from the HTML of each page. This is the actual average score the movie obtained.
+VOTES | number of people who had reviewed the film at the time we pulled it.
